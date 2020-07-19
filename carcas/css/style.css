@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Banty Bold";
+  font-display: swap;
+  src: url("../fonts/Banty Bold.woff") format("woff"), url("../fonts/Banty Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PFAgoraSlabPro Bold";
+  font-display: swap;
+  src: url("../fonts/PFAgoraSlabPro Bold.woff") format("woff"), url("../fonts/PFAgoraSlabPro Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BriosoPro Italic";
+  font-display: swap;
+  src: url("../fonts/BriosoPro Italic.woff") format("woff"), url("../fonts/BriosoPro Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+span {
+  font-size: 20px;
+}
+
+body {
+  font-size: 30px;
+  background: url("../img/IMG_20190723_170627.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 15px;
+  }
+
+  body {
+    font-size: 20px;
+  }
+}
+
+.webp body { background: url(../img/IMG_20190723_170627.webp) 0 0 no-repeat; }
